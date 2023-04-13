@@ -1,0 +1,32 @@
+{
+  "name": "chapter4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamcemplon1/Car-Management-Dashboard.git"
+  },
+  "keywords": [],
+  "author": "Restu Nugroho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamcemplon1/Car-Management-Dashboard/issues"
+  },
+  "homepage": "https://github.com/iamcemplon1/Car-Management-Dashboard#readme",
+  "dependencies": {
+    "alert": "^5.1.1",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "sequelize": "^6.24.0"
+  }
+}
